@@ -12,6 +12,8 @@ public class Task4 {
         System.out.print("Введите второе чилсло: ");
         int b = scanner.nextInt();
 
+        scanner.close();
+
         if (a % 2 == 0) {
             if (a > b) {
                 System.out.println("Первое число больше второго");
