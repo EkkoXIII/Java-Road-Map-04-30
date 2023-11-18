@@ -2,47 +2,47 @@ package Chapter1;
 
 public class Task2 {
     public static void main(String[] args) {
-        String stringName = "Никита";
-        char n = 'Н', i = 'и', k = 'к', l = 'и', t = 'т', a = 'а';
-        char charName = 'Н';
+        String stringName = "РќРёРєРёС‚Р°";
+        char n = 'Рќ', i = 'Рё', k = 'Рє', l = 'Рё', t = 'С‚', a = 'Р°';
+        char charName = 'Рќ';
 
-        System.out.println("Вывод через String: "+stringName);
-        System.out.print("Вывод через String без перехода на новую строку: "+stringName+"\n");
+        System.out.println("Р’С‹РІРѕРґ С‡РµСЂРµР· String: "+stringName);
+        System.out.print("Р’С‹РІРѕРґ С‡РµСЂРµР· String Р±РµР· РїРµСЂРµС…РѕРґР° РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ: "+stringName+"\n");
 
-        System.out.println("Вывод через несколько char: "+n+i+k+l+t+a);
-        System.out.print("Вывод через несколько char без перехода на новую строку: "+n+i+k+l+t+a+"\n");
+        System.out.println("Р’С‹РІРѕРґ С‡РµСЂРµР· РЅРµСЃРєРѕР»СЊРєРѕ char: "+n+i+k+l+t+a);
+        System.out.print("Р’С‹РІРѕРґ С‡РµСЂРµР· РЅРµСЃРєРѕР»СЊРєРѕ char Р±РµР· РїРµСЂРµС…РѕРґР° РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ: "+n+i+k+l+t+a+"\n");
 
-        System.out.println("Вывод через один char: "+charName);
-        charName ='и';
+        System.out.println("Р’С‹РІРѕРґ С‡РµСЂРµР· РѕРґРёРЅ char: "+charName);
+        charName ='Рё';
         System.out.println(charName);
-        charName ='к';
+        charName ='Рє';
         System.out.println(charName);
-        charName ='и';
+        charName ='Рё';
         System.out.println(charName);
-        charName ='т';
+        charName ='С‚';
         System.out.println(charName);
-        charName ='а';
+        charName ='Р°';
         System.out.println(charName+"\n");
 
-        charName = 'Н';
-        System.out.print("Вывод через один char без перехода на новую строку: "+charName);
-        charName ='и';
+        charName = 'Рќ';
+        System.out.print("Р’С‹РІРѕРґ С‡РµСЂРµР· РѕРґРёРЅ char Р±РµР· РїРµСЂРµС…РѕРґР° РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ: "+charName);
+        charName ='Рё';
         System.out.print(charName);
-        charName ='к';
+        charName ='Рє';
         System.out.print(charName);
-        charName ='и';
+        charName ='Рё';
         System.out.print(charName);
-        charName ='т';
+        charName ='С‚';
         System.out.print(charName);
-        charName ='а';
+        charName ='Р°';
         System.out.print(charName);
         System.out.println();
 
-        System.out.print("Вывод через String: "+"\n");
+        System.out.print("Р’С‹РІРѕРґ С‡РµСЂРµР· String: "+"\n");
         for (i=0;i<stringName.toCharArray().length;i++) {
             System.out.print(stringName.toCharArray()[i]+"\n");
         }
 
-        System.out.print("Вывод через несколько char: \n"+n+"\n"+i+"\n"+k+"\n"+l+"\n"+t+"\n"+a+"\n");
+        System.out.print("Р’С‹РІРѕРґ С‡РµСЂРµР· РЅРµСЃРєРѕР»СЊРєРѕ char: \n"+n+"\n"+i+"\n"+k+"\n"+l+"\n"+t+"\n"+a+"\n");
     }
 }

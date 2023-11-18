@@ -10,7 +10,7 @@ public class Task1 {
         a = b;
         b = c;
 
-        System.out.println("Значение а: " + a + ". Значение b: " + b);
+        System.out.println("Р—РЅР°С‡РµРЅРёРµ Р°: " + a + ". Р—РЅР°С‡РµРЅРёРµ b: " + b);
 
 
 

@@ -8,7 +8,7 @@ public class Task3 {
         int b = a++; // b=1, a=2
         System.out.println(a);
         System.out.println(b);
-        b += a++; //b= 1 + 2, затем a++
+        b += a++; //b= 1 + 2, Р·Р°С‚РµРј a++
 
         System.out.println(b);
         System.out.println(a);

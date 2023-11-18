@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Chapter1/Task1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter1/Task2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter2/Task1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter2/Task2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter2/Task3.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter3/Task1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter3/Task2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Chapter3/Task3.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Chapter3/Task4.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Chapter4/Task1.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Chapter4/Task2.java" charset="UTF-8" />

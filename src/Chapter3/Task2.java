@@ -6,7 +6,7 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите сообщение: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ СЃРѕРѕР±С‰РµРЅРёРµ: ");
         String message = scanner.nextLine();
 
         scanner.close();

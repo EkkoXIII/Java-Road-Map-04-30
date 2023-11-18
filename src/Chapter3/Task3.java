@@ -6,16 +6,16 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите свою фамилию: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ СЃРІРѕСЋ С„Р°РјРёР»РёСЋ: ");
         String surname = scanner.nextLine();
-        System.out.print("Введите свое имя: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ СЃРІРѕРµ РёРјСЏ: ");
         String name = scanner.nextLine();
-        System.out.print("Введите свое отчество: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ СЃРІРѕРµ РѕС‚С‡РµСЃС‚РІРѕ: ");
         String middleName = scanner.nextLine();
 
         scanner.close();
 
-        System.out.println("Ваше ФИО: " + surname + " " + name + " " + middleName);
-        System.out.printf("Ваше ФИО: %s %s %s", surname, name, middleName);
+        System.out.println("Р’Р°С€Рµ Р¤РРћ: " + surname + " " + name + " " + middleName);
+        System.out.printf("Р’Р°С€Рµ Р¤РРћ: %s %s %s", surname, name, middleName);
     }
 }

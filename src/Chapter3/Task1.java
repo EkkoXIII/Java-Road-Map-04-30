@@ -8,22 +8,22 @@ public class Task1 {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Введите первое число: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ: ");
         int a = scanner.nextInt();
-        System.out.print("Введите второе число: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: ");
         int b = scanner.nextInt();
 
         scanner.close();
 
         if (a%2==0){
-            System.out.println("Первое число четное! Выводм произведение двух чисел: Число1 * Число2 = : "+(a*b));
+            System.out.println("РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ С‡РµС‚РЅРѕРµ! Р’С‹РІРѕРґРј РїСЂРѕРёР·РІРµРґРµРЅРёРµ РґРІСѓС… С‡РёСЃРµР»: Р§РёСЃР»Рѕ1 * Р§РёСЃР»Рѕ2 = : "+(a*b));
         }
         else {
-            System.out.println("Первое число нечетное! Выводм частное двух чисел: Число1 / Число2 = : "+((double)a / (double)b));
+            System.out.println("РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ РЅРµС‡РµС‚РЅРѕРµ! Р’С‹РІРѕРґРј С‡Р°СЃС‚РЅРѕРµ РґРІСѓС… С‡РёСЃРµР»: Р§РёСЃР»Рѕ1 / Р§РёСЃР»Рѕ2 = : "+((double)a / (double)b));
         }
 
         if (a==b){
-            System.out.println("Числа равны!");
+            System.out.println("Р§РёСЃР»Р° СЂР°РІРЅС‹!");
         }
     }
 }

@@ -6,14 +6,14 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ââåäèòå ïåðâîå ÷èñëî: ");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ");
         int a = scanner.nextInt();
 
-        System.out.print("Ââåäèòå ïåðâîå ÷èñëî: ");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ");
         int b = scanner.nextInt();
 
         scanner.close();
 
-        System.out.println("Ðåçóëüòàò ñðàâíåíèÿ a3 > b2, ãäå a3 - a â êóáå, b2 - b  â êâàäðàòå: "+(Math.pow(a,3)>Math.pow(b,2)));
+        System.out.println("Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ ÑÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ñ a3 > b2, Ð³Ð´Ðµ a3 - a Ð² ÐºÑƒÐ±Ðµ, b2 - b  Ð² ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ðµ: "+(Math.pow(a,3)>Math.pow(b,2)));
     }
 }
